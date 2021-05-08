@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bykav</key>
+	<dict>
+		<key>picture</key>
+		<string>Bykav</string>
+		<key>name</key>
+		<string>Vasil Bykav</string>
+		<key>books</key>
+		<string>hz hz hz</string>
+		<key>date</key>
+		<string>nii</string>
+	</dict>
+	<key>Bykav - 2</key>
+	<dict>
+		<key>picture</key>
+		<string>Bagdanovich</string>
+		<key>name</key>
+		<string>Vasil Bykav</string>
+		<key>books</key>
+		<string>hz hz hz</string>
+		<key>date</key>
+		<string>nii</string>
+	</dict>
+	<key>Bykav - 3</key>
+	<dict>
+		<key>picture</key>
+		<string>Kolas</string>
+		<key>name</key>
+		<string>Vasil Bykav</string>
+		<key>books</key>
+		<string>hz hz hz</string>
+		<key>date</key>
+		<string>nii</string>
+	</dict>
+	<key>Bykav - 4</key>
+	<dict>
+		<key>picture</key>
+		<string>Kupala</string>
+		<key>name</key>
+		<string>Vasil Bykav</string>
+		<key>books</key>
+		<string>hz hz hz</string>
+		<key>date</key>
+		<string>nii</string>
+	</dict>
+	<key>Bykav - 5</key>
+	<dict>
+		<key>picture</key>
+		<string>Tarashkevich</string>
+		<key>name</key>
+		<string>Vasil Bykav</string>
+		<key>books</key>
+		<string>hz hz hz</string>
+		<key>date</key>
+		<string>nii</string>
+	</dict>
+</dict>
+</plist>

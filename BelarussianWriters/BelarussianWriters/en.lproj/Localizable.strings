@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  BelarussianWriters
+
+ Created by Stacy Vinogradova on 29.04.21.
+  
+*/
+"welcome" = "Welcome ";
+"login" = "Loginaaa";
+"createAcc" = "Create accaunt";
+"email" = "Email";
+"password" = "Password";
+"repeatPassword" = "repeatPassword";
+"signIN" = "Sign IN";
+"signOut" = "Sign out";
+
