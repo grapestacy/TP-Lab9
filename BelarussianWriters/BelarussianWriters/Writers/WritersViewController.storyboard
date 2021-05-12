@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2K-cO-vz0">
-                                <rect key="frame" x="58.409395973154346" y="95.000000000000114" width="296.9999999999996" height="21.000000000000028"/>
+                                <rect key="frame" x="29.617449664429842" y="95" width="354" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -25,7 +25,7 @@
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="z4g-5b-s1f">
                                 <rect key="frame" x="18.543624161073808" y="188" width="374.00000000000017" height="674"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76988327503204346" green="0.93155795335769653" blue="0.94309180974960327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.90018618106842041" green="0.96085089445114136" blue="0.9735676646232605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g1U-Os-A8l">
                                     <size key="itemSize" width="366" height="680"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -46,7 +46,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gTU-FZ-fsQ"/>
-                        <color key="backgroundColor" red="0.76988327503204346" green="0.93155795335769653" blue="0.94309180974960327" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.90018618106842041" green="0.96085089445114136" blue="0.9735676646232605" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="signOutButton" destination="ObK-8g-BdT" id="26D-iI-AAH"/>

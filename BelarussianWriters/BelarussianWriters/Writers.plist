@@ -7,55 +7,55 @@
 		<key>picture</key>
 		<string>Bykav</string>
 		<key>name</key>
-		<string>Vasil Bykav</string>
+		<string>Vasil Bykov</string>
 		<key>books</key>
-		<string>hz hz hz</string>
+		<string>Crane&apos;s Cry</string>
 		<key>date</key>
-		<string>nii</string>
+		<string>1960</string>
 	</dict>
-	<key>Bykav - 2</key>
+	<key>Bogdanovich</key>
 	<dict>
 		<key>picture</key>
 		<string>Bagdanovich</string>
 		<key>name</key>
-		<string>Vasil Bykav</string>
+		<string>Maksim Bogdanovich</string>
 		<key>books</key>
-		<string>hz hz hz</string>
+		<string>A Wreath</string>
 		<key>date</key>
-		<string>nii</string>
+		<string>1914</string>
 	</dict>
-	<key>Bykav - 3</key>
+	<key>Kolas</key>
 	<dict>
 		<key>picture</key>
 		<string>Kolas</string>
 		<key>name</key>
-		<string>Vasil Bykav</string>
+		<string>Jakub Kolas</string>
 		<key>books</key>
-		<string>hz hz hz</string>
+		<string>Simon the Musician</string>
 		<key>date</key>
-		<string>nii</string>
+		<string>1925</string>
 	</dict>
-	<key>Bykav - 4</key>
+	<key>Kupala</key>
 	<dict>
 		<key>picture</key>
 		<string>Kupala</string>
 		<key>name</key>
-		<string>Vasil Bykav</string>
+		<string>Janka Kupala</string>
 		<key>books</key>
-		<string>hz hz hz</string>
+		<string>Eternal Song</string>
 		<key>date</key>
-		<string>nii</string>
+		<string>1909</string>
 	</dict>
-	<key>Bykav - 5</key>
+	<key>Tarashkevick</key>
 	<dict>
 		<key>picture</key>
 		<string>Tarashkevich</string>
 		<key>name</key>
-		<string>Vasil Bykav</string>
+		<string>Branislaw Tarashkyevich </string>
 		<key>books</key>
-		<string>hz hz hz</string>
+		<string>The Belarusian Latin alphabet or Łacinka</string>
 		<key>date</key>
-		<string>nii</string>
+		<string>1911</string>
 	</dict>
 </dict>
 </plist>

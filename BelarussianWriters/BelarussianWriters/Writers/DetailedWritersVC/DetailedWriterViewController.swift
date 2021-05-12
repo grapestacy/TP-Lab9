@@ -27,9 +27,9 @@ class DetailedWriterViewController: UIViewController {
         super.viewDidLoad()
 
         imageView.image = image
-        nameLabel.text = name
-        dateLabel.text = date
-        booksLabel.text = books
+        nameLabel.text = name.localized
+        dateLabel.text = date.localized
+        booksLabel.text = books.localized
         // Do any additional setup after loading the view.
     }
     
