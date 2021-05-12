@@ -2,14 +2,14 @@
   Localizable.strings
   BelarussianWriters
 
-  Created by Ivan Zhuravskiy on 30.04.21.
+  Created by Stacy Vinogradova on 30.04.21.
   
 */
-"welcome" = "HITLER ";
-"login" = "HITLER";
-"createAcc" = "HITLER accaunt";
+"welcome" = "Herzlich Willkommen,";
+"login" = "Nutzername";
+"createAcc" = "Einloggen";
 "email" = "Email";
-"password" = "Password";
-"repeatPassword" = "repeatPassword";
-"signIN" = "Sign IN";
-"signOut" = "Sign out";
+"password" = "Passwort";
+"repeatPassword" = "Wiederhole das Passwort";
+"signIN" = "Anmelden";
+"signOut" = "Austragen";

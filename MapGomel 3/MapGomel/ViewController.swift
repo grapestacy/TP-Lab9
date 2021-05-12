@@ -9,19 +9,19 @@ import UIKit
 import MapKit
 import CoreData
 
-let Gomel = City.init(name: "Gomel", musems: "manymanymany", latitude: 52.4313, longitude: 30.9937)
+let Gomel = City.init(name: "Gomel", museums: "\nCriminalistics Museum\nPalace of the Rumyantsevs and the Paskeviches\nHomiel Regional Museum of Military Glory", latitude: 52.4313, longitude: 30.9937)
 
-let CHACHERSK = City.init(name: "CHACERSKEPTA", musems: "NET", latitude: 37.7749, longitude: -122.4194)
+let Turov = City.init(name: "Turov", museums: "\nTurovskiy Krayevedcheskiy Muzey\nTurov Birds Ringing Station", latitude: 52.0664, longitude: 27.7407)
 
-let CHACHERSK2 = City.init(name: "CHACERSKEPTA2", musems: "NET", latitude: 37, longitude: -122)
+let Chachersk = City.init(name: "Chachersk", museums: "\nIstoriko-Yetnograficheskii Muzei\nČačersk Town Hall", latitude: 52.9191, longitude: 30.9157)
 
 
-var citiesForCore = [Gomel, CHACHERSK, CHACHERSK2]
+var citiesForCore = [Gomel, Turov, Chachersk]
 var cities = [City]()
 
 
 protocol PhotoAnnotationDelegate: AnyObject {
-    func presentController(cityName:String)
+    func presentController(city:City)
     func moveMap(zoomRegion: MKCoordinateRegion)
     func makeDestinationMKItem(coordinate: CLLocationCoordinate2D)
     func setChoosenAnnotation(annotation:MKAnnotation)
@@ -35,7 +35,6 @@ protocol RequestDelegate: AnyObject {
 
 class ViewController: UIViewController, RequestDelegate {
 
-    
     var choosenannotation : MKAnnotation?
     var destinationMapItem : MKMapItem?
     var weathers:[Weather]?
@@ -63,7 +62,7 @@ class ViewController: UIViewController, RequestDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        pokazatChtoUmeuRabotatSCoreData()
+        pokazatChtoUmeuRabotatSCoreData() //must be run only once
         pokazatChtoUmeuRabotatSCoreData2()
         weatherGertter.delegate = self
         
@@ -78,7 +77,6 @@ class ViewController: UIViewController, RequestDelegate {
         weatherGertter.getWeatherByCoordinates(latitude: city.latitude, longitude: city.longitude, name: city.name)
         }
         addannotatios()
-        // Do any additional setup after loading the view.
     }
 
     func setWeather(cityName: String, weather: Weather) {
@@ -135,7 +133,7 @@ class ViewController: UIViewController, RequestDelegate {
         for city in citiesForCore {
             var coreCity = CoreCity(context: context)
             coreCity.name = city.name
-            coreCity.musems = city.musems
+            coreCity.musems = city.museums
             coreCity.latitude = city.latitude
             coreCity.longitude = city.longitude
             if context.hasChanges {
@@ -161,7 +159,7 @@ class ViewController: UIViewController, RequestDelegate {
             for object in objects {
                 if let name = object.name,
                    let musems = object.musems{
-                    cities.append(City.init(name: name, musems: musems, latitude: object.latitude, longitude: object.longitude))
+                    cities.append(City.init(name: name, museums: musems, latitude: object.latitude, longitude: object.longitude))
                 }
             }
             print("aaaa")
@@ -175,12 +173,12 @@ class ViewController: UIViewController, RequestDelegate {
     }
 }
 
-
 extension ViewController:CLLocationManagerDelegate,MKMapViewDelegate, PhotoAnnotationDelegate {
-    func presentController(cityName: String) {
+    func presentController(city: City) {
         let vc = DescriptionViewController()
-        if let weather = cityWeather[cityName] {
-            vc.cityName = cityName
+        if let weather = cityWeather[city.name] {
+            vc.cityName = city.name
+            vc.museumsInfo = city.museums
             vc.weather = weather
         self.present(vc, animated: true, completion: nil)
         }
@@ -206,8 +204,7 @@ extension ViewController:CLLocationManagerDelegate,MKMapViewDelegate, PhotoAnnot
         
         for city in cities {
             let coord = CLLocationCoordinate2D(latitude: CLLocationDegrees(city.latitude), longitude:CLLocationDegrees(city.longitude) )
-          //  let name = city.name
-            let musems = city.musems
+            let musems = city.museums
             let myMapAnnotation = CustomAnnotation.init(coordinate: coord)
             myMapAnnotation.city = city
             myMapAnnotation.musems = musems

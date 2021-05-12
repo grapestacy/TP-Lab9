@@ -9,7 +9,7 @@ import Foundation
 
 struct City {
     var name: String = ""
-    var musems: String = ""
+    var museums: String = ""
     var latitude: Float = 0
     var longitude: Float = 0
 }

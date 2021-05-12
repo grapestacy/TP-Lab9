@@ -4,15 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MapGomel.xcscheme_^#shared#^_</key>
+		<key>BelarussianWriters.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>BelarussianWritersGerman.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>BelarussianWritersRussian.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>61F09979263B8DAC00FE571C</key>
+		<key>61F098D9263B39E500FE571C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

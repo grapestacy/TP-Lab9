@@ -43,7 +43,7 @@ class PhotoAnnotationView: MKMarkerAnnotationView {
         self.delegate?.setChoosenAnnotation(annotation: annotation)
             self.delegate?.makeDestinationMKItem(coordinate: annotationCoordinate)
             self.delegate?.moveMap(zoomRegion: zoomRegion)
-            self.delegate?.presentController(cityName: city?.name ?? "")
+            self.delegate?.presentController(city: city ?? City.init())
         }
 
         

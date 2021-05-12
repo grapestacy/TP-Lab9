@@ -5,12 +5,12 @@
  Created by Stacy Vinogradova on 29.04.21.
   
 */
-"welcome" = "Welcome ";
-"login" = "Loginaaa";
-"createAcc" = "Create accaunt";
+"welcome" = "Welcome, ";
+"login" = "User name";
+"createAcc" = "Log in";
 "email" = "Email";
 "password" = "Password";
-"repeatPassword" = "repeatPassword";
-"signIN" = "Sign IN";
+"repeatPassword" = "Repeat password";
+"signIN" = "Sign in";
 "signOut" = "Sign out";
 

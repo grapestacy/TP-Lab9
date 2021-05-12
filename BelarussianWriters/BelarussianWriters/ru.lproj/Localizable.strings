@@ -2,6 +2,14 @@
   Localizable.strings
   BelarussianWriters
 
-  Created by Ivan Zhuravskiy on 30.04.21.
+  Created by Stacy Vinogradova on 30.04.21.
   
 */
+"welcome" = "Добро пожаловать, ";
+"login" = "Имя пользователя";
+"createAcc" = "Зарегистрироваться";
+"email" = "Почта";
+"password" = "Пароль";
+"repeatPassword" = "Подтвердите пароль";
+"signIN" = "Войти";
+"signOut" = "Выйти";

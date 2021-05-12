@@ -15,29 +15,21 @@ class DescriptionViewController: UIViewController {
     
     @IBOutlet weak var windLabel: UILabel!
     
+    @IBOutlet weak var museumInfoLabel: UILabel!
+    
     var cityName = ""
+    var museumsInfo = ""
     var weather:Weather?
     override func viewDidLoad() {
         super.viewDidLoad()
 
         cityNameLabel.text = cityName
-        temperatureLabel.text = String(weather?.factTemperature ?? 0)
-        FeelTemperatureLabel.text = String (weather?.feelTemperature ?? 0)
-        conditionLabel.text = weather?.condition
-        windLabel.text = String(weather?.windSpeed ?? 0)
+        temperatureLabel.text = "Current temperature: " + String(weather?.factTemperature ?? 0) + "°C"
+        FeelTemperatureLabel.text = "Feels like: " + String (weather?.feelTemperature ?? 0) + "°C"
+        conditionLabel.text = "Weather condition: " + String(weather?.condition ?? "clear")
+        windLabel.text = "Wind speed: " + String(weather?.windSpeed ?? 0) + " m/sec"
         
-        // Do any additional setup after loading the view.
+        museumInfoLabel.text = "In this perfect city named " + cityName + " you should visit next places: " + museumsInfo
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

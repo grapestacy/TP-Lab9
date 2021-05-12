@@ -63,8 +63,8 @@ class WeatherGetter {
                let facTemp = info["temp"] as? Float,
                let feelTemp = info["feels_like"] as? Float,
                let cond = info["condition"] as? String {
-                let wind = info["wind_speed"] as? Float ?? 0
-                let weather = Weather(factTemperature: facTemp, feelTemperature: feelTemp, condition: cond, windSpeed: wind)
+                let wind = info["wind_speed"] as? Double ?? 0
+                let weather = Weather(factTemperature: facTemp, feelTemperature: feelTemp, condition: cond, windSpeed: Float(wind))
                 self.delegate?.setWeather(cityName: name, weather: weather)
             }
         }
