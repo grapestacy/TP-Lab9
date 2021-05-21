@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Bykav</key>
+	<dict>
+		<key>picture</key>
+		<string>Bykav</string>
+		<key>name</key>
+		<string>Vasil Bykov</string>
+		<key>books</key>
+		<string>Crane&apos;s Cry</string>
+		<key>date</key>
+		<string>1960</string>
+	</dict>
+	<key>Bogdanovich</key>
+	<dict>
+		<key>picture</key>
+		<string>Bagdanovich</string>
+		<key>name</key>
+		<string>Maksim Bogdanovich</string>
+		<key>books</key>
+		<string>A Wreath</string>
+		<key>date</key>
+		<string>1914</string>
+	</dict>
+	<key>Kolas</key>
+	<dict>
+		<key>picture</key>
+		<string>Kolas</string>
+		<key>name</key>
+		<string>Jakub Kolas</string>
+		<key>books</key>
+		<string>Simon the Musician</string>
+		<key>date</key>
+		<string>1925</string>
+	</dict>
+	<key>Kupala</key>
+	<dict>
+		<key>picture</key>
+		<string>Kupala</string>
+		<key>name</key>
+		<string>Janka Kupala</string>
+		<key>books</key>
+		<string>Eternal Song</string>
+		<key>date</key>
+		<string>1909</string>
+	</dict>
+	<key>Tarashkevick</key>
+	<dict>
+		<key>picture</key>
+		<string>Tarashkevich</string>
+		<key>name</key>
+		<string>Branislaw Tarashkyevich </string>
+		<key>books</key>
+		<string>The Belarusian Latin alphabet or Łacinka</string>
+		<key>date</key>
+		<string>1911</string>
+	</dict>
+</dict>
+</plist>
